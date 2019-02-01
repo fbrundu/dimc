@@ -1,0 +1,8 @@
+*.DS_Store
+*.log
+*.tags
+*.pyc
+conf/conf.json
+conf/dimc.json
+res
+screenlog.*

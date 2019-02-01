@@ -1,0 +1,9 @@
+{
+    "aurl": <cas_auth_server_url>,
+    "acert": <cas_auth_server_cert>,
+    "stage": <development_or_production>,
+    "cert": <certificate_path>,
+    "priv": <privkey_path>,
+    "chain": <certificate_chain_path>,
+    "bimpurl": "http://<bimp_url>/"
+}

@@ -1,0 +1,24 @@
+{
+  "host": "<service_ipaddr>",
+  "name": "dimc",
+  "description": "DIM Context",
+  "meta": {
+      "serviceType": "_rest._http",
+      "apiVersion": "3.1.1",
+      "gc_expose": true
+   },
+  "ttl": 120,
+  "protocols": [
+    {
+      "type": "REST",
+      "endpoint": {
+        "url": "http://<service_ipaddr>:8082/dimc"
+      },
+      "methods": [
+        "GET"
+      ],
+      "content-types": []
+    }
+  ],
+  "representation": {}
+}
